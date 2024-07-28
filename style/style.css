@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    width: 1340px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* banner section start here */
+.banner{
+    width: 1340px;
+    height: 700px;
+    
+    border: 3px solid red;
+    background: linear-gradient(180.00deg, rgba(0,0,0,1), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,1) 100%);
+   
+}
+ul>li{
+   list-style-type: none;
+}
+
+.menu-bar{
+   display: flex;
+   margin-top: 0%;
+   
+   height: 45px;
+   width: 430px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-radius: 39px;
+   align-items: center;
+   justify-content: space-around;
+   
+  
+ 
+   
+}
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 45px;
+    width: 1050px;
+    border: 3px solid rgb(238, 15, 15);
+    margin: 0 auto ;
+    margin-top: 50px;
+} 
+.name{
+    color: rgb(230, 83, 60);
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.dots-bar{
+    padding-right: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+.home-dot{
+    color: rgb(255, 255, 255);
+    height: 28px;
+    width: 80px;
+    
+    text-align: center;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    font-size: 1.2rem;
+    
+   
+}
+/* banner section ends here */
