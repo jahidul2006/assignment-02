@@ -30,7 +30,7 @@ ul>li{
    border: 1px solid rgba(255, 255, 255, 0.1);
    border-radius: 39px;
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-between;
    
   
  
@@ -63,7 +63,6 @@ ul>li{
     color: rgb(255, 255, 255);
     height: 28px;
     width: 80px;
-    
     text-align: center;
     border-radius: 46px;
     background: rgb(230, 83, 60);
