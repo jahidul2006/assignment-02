@@ -1,0 +1,29 @@
+
+@media screen and (max-width:576px) {
+   
+    .nav-btn{
+        display: none;
+    }
+
+    .ham-manu{
+        display: block;
+        flex-direction: row;
+       
+     }
+    .banner-name{
+        flex-direction: column;
+    }
+    .btn-name{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .banner-picture{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+   
+    
+    
+}

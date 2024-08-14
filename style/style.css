@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-  
+@import url('https://fonts.cdnfonts.com/css/miama');
   
 body{
     margin: 0%;
     padding: 0%;
     background-image: linear-gradient(180.00deg, rgba(0,0,0,1), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,1) 100%);
-   
+    background-repeat: no-repeat;
 }
 
 
 /* container start here */
 .container{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-    height: 700px;
+    display: flex;
+    
+  
    
    
 }
@@ -53,15 +55,6 @@ body{
     color: aliceblue;
    
 }
-/* .nav-text-1{
-    font-size: 1.2rem;
-    font-weight: 500;
-     font-style: italic;
-     padding-left: 2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-     color: aliceblue;
-} */
 
 .name{
     
@@ -70,5 +63,132 @@ body{
     border-radius: 46px;
     background: rgb(230, 83, 60);
 }
-
+ .ham-manu{
+    color: #FFFFFF;
+    width: 20px;
+    display: none;
+ }
 /* navbar endss here */
+
+/* banner part starts here */
+ .banner-contant{
+    width: 450px;
+    height: 400px;
+    border: 2px solid red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .banner-name{
+    font-family: "Bona Nova", serif;
+    font-size: 4.2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: ;
+    line-height: 100%;
+ }
+ .shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 500;    
+    font-size: 6.2rem;
+    
+ }
+ .banner-picture{
+     width: 35%;
+    margin-left: 10%;
+    border: 2px solid gold;
+
+ }
+ .img-1{
+    height: 550px;
+    width: 350px;
+ }
+ .pera-contant{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Bona Nova", serif;
+    line-height: 120%;
+    font-size: 1rem;
+    font-weight: 500;
+ }
+ 
+.Join-Now{
+    padding: 6px 35px;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+   outline: none;
+   font-size: 1.02rem;
+   margin-right: 25px;
+   margin-top: 5px;
+   color:  rgb(255, 255, 255);
+    
+}
+.Download-App{
+    padding: 6px 25px;
+    outline: none;
+    border-radius: 42px;
+    background:  rgb(85,76,76);
+    border: none;
+    font-size: 1.02rem;
+    color:  rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 5px;
+}
+
+ .video-tutorial{
+   height: 75px;
+   width: 150px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   margin-left: 46%;
+   position: absolute;
+   margin-top: -160px;
+   background: rgba(48, 48, 48, 0.54);
+   backdrop-filter: blur(1px);
+   border-radius: 10px;
+ }
+ .video-tutorial-1{
+   height: 75px;
+   width: 150px;
+   backdrop-filter: blur(1px);
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   position: absolute;
+   margin-left: 72%;
+   margin-top: -460px;
+   background: rgba(48, 48, 48, 0.54);
+   border-radius: 10px;
+   backdrop-filter: blur(1px);
+ }
+ .video-name-1{
+   color: rgb(255, 255, 255);
+   margin-left: 10%;
+   margin-top: 6%;
+   font-size: 1.6rem;
+ }
+ .video-name{
+   margin-top: 10%;
+   font-size: 1.6rem;
+   text-align: center;
+   color: rgb(250, 250, 249);
+ }
+ .pera-name-1{
+   color: rgba(255, 255, 255, 0.5);
+   margin-top: -13%;
+   margin-left: 10%;
+   font-size: 0.9rem;
+ }
+ .pera-name{
+   color: rgba(255, 255, 255, 0.5);
+   margin-top: -14%;
+   margin-left: 30%;
+   font-size: 1rem;
+   
+ }
+ .dot{
+   position: absolute;
+   top: 33%;
+   left: 8%;
+  height: 25px;
+  width: 25px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+/* banner part ends here */
